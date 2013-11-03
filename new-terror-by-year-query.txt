@@ -1,0 +1,1 @@
+SELECT iyear, count(gname) AS number FROM `terrorism_data` WHERE iyear >= '1990' AND iyear<='2010' AND gname = "Taliban" GROUP BY iyear
